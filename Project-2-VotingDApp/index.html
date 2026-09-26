@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voting DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Blockchain Voting DApp</h1>
+
+        <button id="connectButton">
+            Connect MetaMask
+        </button>
+
+        <br><br>
+
+        <input
+            type="number"
+            id="candidateId"
+            placeholder="Enter Candidate ID">
+
+        <button onclick="vote()">
+            Vote
+        </button>
+
+        <br><br>
+
+        <button onclick="showWinner()">
+            Show Winner
+        </button>
+
+        <h2 id="winner"></h2>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
