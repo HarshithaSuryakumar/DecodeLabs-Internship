@@ -1,0 +1,19 @@
+{
+  "name": "Harshy NFT #1",
+  "description": "My first ERC-721 NFT created using Solidity and Foundry for DecodeLabs Blockchain Project 4.",
+  "image": "ipfs://bafybeidyxs22s7f6outuy7dh4nitdolerigkdtygduyzliqnif7isr7mui",
+  "attributes": [
+    {
+      "trait_type": "Creator",
+      "value": "Harshitha"
+    },
+    {
+      "trait_type": "Technology",
+      "value": "Blockchain"
+    },
+    {
+      "trait_type": "Standard",
+      "value": "ERC-721"
+    }
+  ]
+}
